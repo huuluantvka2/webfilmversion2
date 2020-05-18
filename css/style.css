@@ -6,7 +6,7 @@ html,body{
     width:100%;
     height: 100%;
     background-color: #111111 !important;
-    font-family: 'Muli', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 /* general attribute */
 .chua-tat-ca{
@@ -85,7 +85,7 @@ html,body{
     width: 60%;
     animation-name:abovedown;
     animation-duration: 3s;
-    animation-fill-mode:forrds;
+    animation-fill-mode:forwards;
 }
 .slide-main{
     width: 80%;
@@ -148,7 +148,7 @@ html,body{
 @-webkit-keyframes abovedown{
     0%{
         opacity: 0;
-        transform: translateY(-20px);
+        transform: translateY(-40px);
         
     }
     100%{
@@ -362,3 +362,13 @@ html,body{
     width:80% !important;
 }
 /* end content */
+/* responsive */
+@media (max-width : 948px){
+    .wrapper-title,.wrapper-title-2{
+        position: static;
+    }
+    .wrapper-title-2 h2, .wrapper-title h2{
+        font-size: 50px;
+    }
+}
+/* end responsive */
