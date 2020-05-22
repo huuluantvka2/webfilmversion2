@@ -361,6 +361,19 @@ html,body{
 .logo-under img{
     width:80% !important;
 }
+.position-status{
+    position: absolute;
+    left:50%;
+    top:30%;
+    transform: translate(-50%,-30%);
+}
+.carousel .carousel-control-next-icon,.carousel .carousel-control-prev-icon{
+    width: 50px !important;
+    height: 50px !important;
+}
+.position-status p{
+    font-size: 20px;
+}
 /* end content */
 /* responsive */
 @media (max-width : 948px){
