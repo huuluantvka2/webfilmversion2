@@ -5,7 +5,6 @@
 html,body{
     width:100%;
     height: 100%;
-    background-color: #111111 !important;
     font-family: 'Roboto Condensed', sans-serif;
 }
 /* general attribute */
@@ -374,6 +373,34 @@ html,body{
 .position-status p{
     font-size: 20px;
 }
+.leave-comment{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #555555;
+    font-weight: 700;
+}
+.media-body p{
+    font-size: 18px;
+    font-weight: 400;
+    color:grey;
+}
+.right-content h1{
+    color:black;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.right-content p{
+    color:#73A2D2;
+    font-size: 15px;
+    font-weight: 400;
+}
+.right-content{
+    position: relative;
+}
+.positon-right-content{
+    transition-delay: 1s;
+}
 /* end content */
 /* responsive */
 @media (max-width : 948px){
@@ -385,3 +412,12 @@ html,body{
     }
 }
 /* end responsive */
+.media .avatar {
+    width: 64px;
+}
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}

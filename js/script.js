@@ -5,7 +5,7 @@ $(document).ready(function () {
         loop:true,
         margin:10,
         autoplay:true,
-        autoplayTimeout:2001,
+        autoplayTimeout:2000,
         autoplayHoverPause:true
     });
     $('.play').on('click',function(){
