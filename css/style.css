@@ -28,6 +28,10 @@ html,body{
 .no-margin{
     margin:0 !important;
 }
+.scroll-slide{
+    background-color: #00000047;
+    transition: 0.6s;
+}
 /* end general attribute */
 /* header */
 .dropdown{
@@ -89,13 +93,16 @@ html,body{
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
+.slide-img{
+    transition: 0.6s;
+}
 .img-slide{
     width: 100%;
     height: 100%;
 }
 .img-slide>img{
-    width: 100vw;
-    height: 99vh;
+    width: 100%;
+    height: 99%;
 }
 .khoi-slide img{
     position: absolute;
@@ -406,6 +413,12 @@ html,body{
     .wrapper-title-2 h2, .wrapper-title h2{
         font-size: 50px;
     }
+    a.waves-effect, a.waves-light{
+        display: inline !important;
+    }
+    .text-center{
+       text-align:left !important;
+    }
 }
 /* end responsive */
 .media .avatar {
@@ -486,3 +499,10 @@ input[type="text"] {
   footer .inputWithIcon input[type="text"]:focus + i {
     color: dodgerBlue;
   }
+  .footer-copyright{
+      background-color: #00000061;
+      color: grey;
+  }
+  .footer-copyright a{
+    color:#fff;
+}

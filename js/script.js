@@ -14,5 +14,12 @@ $(document).ready(function () {
     $('.stop').on('click',function(){
         owl.trigger('stop.owl.autoplay')
     });
-    var scroll;
+    $(window).scroll(function () { 
+        var position = $('html,body').scrollTop();
+        if(position>40){
+            $('.slide-img').addClass('scroll-slide');
+        }else{
+            $('.scroll-slide').removeClass('scroll-slide');
+        }
+    });
 });
